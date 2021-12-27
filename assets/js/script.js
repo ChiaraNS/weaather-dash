@@ -11,3 +11,24 @@ var currentHumid = document.querySelector(".current-humidity");
 var currentUv = document.querySelector(".current-uv");
 var cityData = document.querySelector(".city-data");
 var card = document.querySelector(".card");
+var pastCities = JSON.parse(localStorage.getItem('cities')) || [];
+
+submitBtn.addEventListener("click", function() {
+    var cityValue = cityInput.value
+    if (cityValue !=""){
+        cityData.style.display="block"
+        forecast(cityValue)
+        
+        cityInput.value = "";
+        localStorage.setItem("cities", JSON.stringify(searches))
+    } else{
+        alert("Invalid Search")
+    }
+});
+
+function citySearch(){
+    pastSearch.innerHTML = ""
+    for(var i = 0; i< pastCities.length; i++) {
+        
+    }
+}
