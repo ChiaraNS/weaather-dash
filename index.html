@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <h1>Weather Dashboard</h1>
+        <h1 class="col-12">Weather Dashboard</h1>
     </header>
     <main class="container">
         <div class="row">
@@ -23,8 +23,8 @@
                 </div>
             </div>
 
-            <div class="">
-                <div class="current-forecast">
+            <div class="col-9">
+                <div class="current-forecast row">
                     <h2 id="current-search"></h2>
                     <span id="current-date"></span>
                     <p class="current-temp"></p>
@@ -33,38 +33,38 @@
                     <p class="current-uv"></p>
                 </div>  
                 
-                <div class="future">
+                <div class="future row">
                     <h2 class="five-days">5-Day Forecast:</h2>
                     <div class="future-days">
-                        <div class="card day1">
+                        <div class="card day1 col-2">
                             <h3 class="card-day"></h3>
                             <p class="card-temp"></p>
                             <p class="card-wind"></p>
                             <p class="card-humidity"></p>
                         </div>
 
-                        <div class="card day2">
+                        <div class="card day2 col-2">
                             <h3 class="card-day"></h3>
                             <p class="card-temp"></p>
                             <p class="card-wind"></p>
                             <p class="card-humidity"></p>
                         </div>
 
-                        <div class="card day3">
+                        <div class="card day3 col-2">
                             <h3 class="card-day"></h3>
                             <p class="card-temp"></p>
                             <p class="card-wind"></p>
                             <p class="card-humidity"></p>
                         </div>
 
-                        <div class="card day4">
+                        <div class="card day4 col-2">
                             <h3 class="card-day"></h3>
                             <p class="card-temp"></p>
                             <p class="card-wind"></p>
                             <p class="card-humidity"></p>
                         </div>
 
-                        <div class="card day5">
+                        <div class="card day5 col-2">
                             <h3 class="card-day"></h3>
                             <p class="card-temp"></p>
                             <p class="card-wind"></p>
@@ -76,5 +76,6 @@
             
         </div>
     </main>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
