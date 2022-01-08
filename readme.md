@@ -21,6 +21,7 @@ Project is created with (all through VScode extension):
 * Moment.js
 	
 ## Useful Links
-Weather, forecast, and uv index api website: https://openweathermap.org/
-Moment.js for the current and future date style: https://momentjs.com/
+* Weather, forecast, and uv index api website: https://openweathermap.org/
+* Moment.js for the current and future date style: https://momentjs.com/
+* Github repository clone link: https://github.com/ChiaraNS/weather-dash
 
