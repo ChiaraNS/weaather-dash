@@ -1,0 +1,62 @@
+.txt {
+  text-transform: capitalize;
+}
+
+#current-search, #current-date {
+  display: inline;
+}
+
+.future-days{
+  display: flex;
+  justify-content: space-between;
+}
+  
+.future-days div{
+  margin: 3px;
+}
+  
+.card{
+  width: 19%;
+  padding: 7px;
+  border-radius: 5px;
+}
+  
+.card h3{
+  font-size: 16px;
+  font-weight: bold;
+}
+  
+.past-search span{
+  cursor: pointer;
+}
+
+.past-search span.active{
+  background-color: #007bff !important;
+  color: white;
+  border-radius: 5px;
+}
+  
+.future-days .card {
+  background-color: #33475A;
+  color: white;
+}
+  
+.past-search .span{
+  background-color: black!important;
+}
+  
+.current-search{
+  display: inline;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+  
+.current-forecast span{
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: inline;
+}
+  
+  /* .current-forecast img{
+    display: inline;
+  } */
